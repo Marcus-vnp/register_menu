@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root {
+    --background_color: #242331;
+    --color_scheme01: #e6eed6;
+    --color_scheme02: #dde2c6;
+    --color_scheme03: #bbc5aa;
+    --main_color: #a72608;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--background_color);
+    color: var(--main_color);
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+#tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+    font-size: 1.5em;
+    background-color: var(--color_scheme01);
+}
