@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,400;0,700;0,800;1,700;1,800&display=swap');
 
 :root {
     --background_color: #242331;
@@ -11,6 +12,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 body {
@@ -33,6 +35,16 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 50px;
-    font-size: 1.5em;
-    background-color: var(--color_scheme01);
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: var(--color_scheme03);
+    width: 200px;
+    height: 25px;
+    font-size: 30px;
 }
